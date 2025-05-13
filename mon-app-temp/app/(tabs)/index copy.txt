@@ -1,0 +1,15 @@
+import React from 'react';
+
+import { ThemedText } from '@/components/ThemedText';
+import { ThemedView } from '@/components/ThemedView';
+
+const WelcomeMessage = () => {
+  return (
+    <ThemedView style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <ThemedText>Bienvenue dans mon application React Native !</ThemedText>
+    </ThemedView>
+    
+  );
+};
+
+export default WelcomeMessage;
